@@ -1,0 +1,68 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{9344BDBB-3E7f-41FC-A0DD-8665D75EE146}") = "SealandConquest", "SealandConquest\SealandConquest.oflproj", "{15EA4164-3A67-424E-A223-480F17C73799}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Android = Debug|Android
+		Debug|BlackBerry = Debug|BlackBerry
+		Debug|Flash = Debug|Flash
+		Debug|HTML5 = Debug|HTML5
+		Debug|iOS = Debug|iOS
+		Debug|Linux = Debug|Linux
+		Debug|Mac = Debug|Mac
+		Debug|webOS = Debug|webOS
+		Debug|Windows = Debug|Windows
+		Release|Android = Release|Android
+		Release|BlackBerry = Release|BlackBerry
+		Release|Flash = Release|Flash
+		Release|HTML5 = Release|HTML5
+		Release|iOS = Release|iOS
+		Release|Linux = Release|Linux
+		Release|Mac = Release|Mac
+		Release|webOS = Release|webOS
+		Release|Windows = Release|Windows
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{15EA4164-3A67-424E-A223-480F17C73799}.Debug|Android.ActiveCfg = Debug|Android
+		{15EA4164-3A67-424E-A223-480F17C73799}.Debug|Android.Build.0 = Debug|Android
+		{15EA4164-3A67-424E-A223-480F17C73799}.Debug|BlackBerry.ActiveCfg = Debug|BlackBerry
+		{15EA4164-3A67-424E-A223-480F17C73799}.Debug|BlackBerry.Build.0 = Debug|BlackBerry
+		{15EA4164-3A67-424E-A223-480F17C73799}.Debug|Flash.ActiveCfg = Debug|Flash
+		{15EA4164-3A67-424E-A223-480F17C73799}.Debug|Flash.Build.0 = Debug|Flash
+		{15EA4164-3A67-424E-A223-480F17C73799}.Debug|HTML5.ActiveCfg = Debug|HTML5
+		{15EA4164-3A67-424E-A223-480F17C73799}.Debug|HTML5.Build.0 = Debug|HTML5
+		{15EA4164-3A67-424E-A223-480F17C73799}.Debug|iOS.ActiveCfg = Debug|iOS
+		{15EA4164-3A67-424E-A223-480F17C73799}.Debug|iOS.Build.0 = Debug|iOS
+		{15EA4164-3A67-424E-A223-480F17C73799}.Debug|Linux.ActiveCfg = Debug|Linux
+		{15EA4164-3A67-424E-A223-480F17C73799}.Debug|Linux.Build.0 = Debug|Linux
+		{15EA4164-3A67-424E-A223-480F17C73799}.Debug|Mac.ActiveCfg = Debug|Mac
+		{15EA4164-3A67-424E-A223-480F17C73799}.Debug|Mac.Build.0 = Debug|Mac
+		{15EA4164-3A67-424E-A223-480F17C73799}.Debug|webOS.ActiveCfg = Debug|webOS
+		{15EA4164-3A67-424E-A223-480F17C73799}.Debug|webOS.Build.0 = Debug|webOS
+		{15EA4164-3A67-424E-A223-480F17C73799}.Debug|Windows.ActiveCfg = Debug|Windows
+		{15EA4164-3A67-424E-A223-480F17C73799}.Debug|Windows.Build.0 = Debug|Windows
+		{15EA4164-3A67-424E-A223-480F17C73799}.Release|Android.ActiveCfg = Release|Android
+		{15EA4164-3A67-424E-A223-480F17C73799}.Release|Android.Build.0 = Release|Android
+		{15EA4164-3A67-424E-A223-480F17C73799}.Release|BlackBerry.ActiveCfg = Release|BlackBerry
+		{15EA4164-3A67-424E-A223-480F17C73799}.Release|BlackBerry.Build.0 = Release|BlackBerry
+		{15EA4164-3A67-424E-A223-480F17C73799}.Release|Flash.ActiveCfg = Release|Flash
+		{15EA4164-3A67-424E-A223-480F17C73799}.Release|Flash.Build.0 = Release|Flash
+		{15EA4164-3A67-424E-A223-480F17C73799}.Release|HTML5.ActiveCfg = Release|HTML5
+		{15EA4164-3A67-424E-A223-480F17C73799}.Release|HTML5.Build.0 = Release|HTML5
+		{15EA4164-3A67-424E-A223-480F17C73799}.Release|iOS.ActiveCfg = Release|iOS
+		{15EA4164-3A67-424E-A223-480F17C73799}.Release|iOS.Build.0 = Release|iOS
+		{15EA4164-3A67-424E-A223-480F17C73799}.Release|Linux.ActiveCfg = Release|Linux
+		{15EA4164-3A67-424E-A223-480F17C73799}.Release|Linux.Build.0 = Release|Linux
+		{15EA4164-3A67-424E-A223-480F17C73799}.Release|Mac.ActiveCfg = Release|Mac
+		{15EA4164-3A67-424E-A223-480F17C73799}.Release|Mac.Build.0 = Release|Mac
+		{15EA4164-3A67-424E-A223-480F17C73799}.Release|webOS.ActiveCfg = Release|webOS
+		{15EA4164-3A67-424E-A223-480F17C73799}.Release|webOS.Build.0 = Release|webOS
+		{15EA4164-3A67-424E-A223-480F17C73799}.Release|Windows.ActiveCfg = Release|Windows
+		{15EA4164-3A67-424E-A223-480F17C73799}.Release|Windows.Build.0 = Release|Windows
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = SealandConquest\SealandConquest.oflproj
+	EndGlobalSection
+EndGlobal
