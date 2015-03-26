@@ -10,16 +10,31 @@ import com.haxepunk.Entity;
 class Scene1 extends Scene
 {
 	
-	
+	public var landTiles:Array<Array<Int>> = [[0, 0, 0, 1],
+											  [0, 0, 1, 1],
+											  [0, 0, 1, 1],
+											  [0, 0, 1, 0],
+											  [0, 0, 1, 1]
+											  ];
 	 
 	public function new () 
 	{
 		super();
 		
-		var p:PlatformTile = new PlatformTile();
-		p.x = 200;
-		p.y = 150;
-		add(p);
+		for (i in 0...landTiles.length)
+		{
+			for (j in 0...landTiles[i].length)
+			{
+				if (landTiles[i][j] == 1)
+				{
+					var p:PlatformTile = new PlatformTile();
+					p.x = j * 102;
+					p.y = i * 102;
+					add(p);
+				}
+			}
+		}
+		
 		
 		var e:Dude = new Dude();
 		e.x = 210;
