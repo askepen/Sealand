@@ -43,7 +43,7 @@ class Selector extends Entity
 			x2 = Input.mouseX;
 			y2 = Input.mouseY;
 			
-		
+			
 			
 			w = x2 - x1;
 			h = y2 - y1;
@@ -92,10 +92,19 @@ class Selector extends Entity
 		{
 			for (i in 0...arr.length)
 			{
-				arr[i].target = new Vector(Input.mouseX,Input.mouseY);
+				arr[i].target = new Vector(Input.mouseX, Input.mouseY);
 			}
 		}
 		
+		if (Input.rightMouseReleased)
+		{
+			var c:Click = new Click();
+			c.x = Input.mouseX;
+			c.y = Input.mouseY;
+			// !PLS-RINO FIX-ERU THIS SCHEIZE. POR FAVOR, SENIOR! 
+			//scene.add(c);
+		}
+				
 		super.update();
 	}
 

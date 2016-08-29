@@ -68,13 +68,14 @@ class Dude extends Entity
 		if( collide("platform",x, y - this.height - speed) != null) y -= speed;
 	}
 	
-	function moveToTarget():Void
+	function moveToTarget()
 	{
 		if (target == null) return;
 		
 		var a:Float = HXP.angle(x,y,target.x,target.y);
 		var sx:Float = Math.cos(a * HXP.RAD) *speed;
 		var sy:Float = Math.sin(a * HXP.RAD) *speed;
+		
 		
 		if (HXP.distance(x,y,target.x,target.y) < speed) 
 		{
@@ -85,7 +86,7 @@ class Dude extends Entity
 		{
 			if( collide("platform",x + sx, y) != null && collide("dude",x + sx, y) == null) x +=  sx ;
 			if( collide("platform",x, y + sy) != null && collide("dude",x, y + sy) == null) y +=  sy ;
-			//HXP.screen.shake(1,0.01);
+			HXP.screen.shake(1,0.005);
 		}
 	}	
 
